@@ -10,7 +10,7 @@ import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 import * as React from 'react';
 import Navbar from './Navbar/page'
-import Image from 'next/image';
+
 
 
 
@@ -48,7 +48,7 @@ export default function Home() {
                 }
               >
                 <a href="">
-                  <Image
+                  <img
                     src={movie.img}
                     alt={`Poster of ${movie.title}`}
                     className='rounded-lg'
