@@ -10,6 +10,7 @@ import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 import * as React from 'react';
 import Navbar from './Navbar/page'
+import Image from 'next/image';
 
 
 
@@ -25,7 +26,7 @@ const HtmlTooltip = styled(({ className, ...props }: TooltipProps) => (
 }));
 
 export default function Home() {
-  const [query, setQuery] = useState('');
+  const [query] = useState('');
 
   const filteredMovies = movies.filter(movie =>
     movie.title.toLowerCase().includes(query.toLowerCase())
@@ -47,7 +48,7 @@ export default function Home() {
                 }
               >
                 <a href="">
-                  <img
+                  <Image
                     src={movie.img}
                     alt={`Poster of ${movie.title}`}
                     className='rounded-lg'
