@@ -6,7 +6,6 @@ import '../style/nav.css'
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import { Container } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import Button from '@mui/material/Button';
 import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 import * as React from 'react';
