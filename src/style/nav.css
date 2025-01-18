@@ -1,0 +1,51 @@
+.logo h1 {
+    position: relative;
+}
+
+.logo h1::after {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 30px;
+    background-color: var(--text-color);
+    position: absolute;
+    right: -10;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav .select  a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--text-color);
+    transform: scale(0, 1);
+    transition: transform 200ms ease-in;
+}
+
+nav .select a:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--text-color);
+    transform: scale(1, 1);
+}
+
+.nav .genre .movie_select{
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    color: black;
+    padding: 10px;
+    z-index: 1;
+    margin-top: 5px;
+    opacity: 0;
+    display: none;
+}
+
+.nav .genre:hover .movie_select{
+    opacity: 1;
+    display: block;
+}

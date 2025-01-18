@@ -1,20 +1,20 @@
 'use client';
 import { useState } from 'react';
-import movies from './Genre/movie/data';  // Ensure the correct path
-import '../style/movie.css'
-import '../style/nav.css'
+import movies from '../movie/data';  // Ensure the correct path
+import '../../../style/movie.css'
+import '../../../style/nav.css'
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import { Container } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import Button from '@mui/material/Button';
-import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
+import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
+import Navbar from '../../Navbar/page';
 import * as React from 'react';
-import Navbar from './Navbar/page'
 
 
 
-const HtmlTooltip = styled(({ className, ...props }: TooltipProps) => (
+const HtmlTooltip = styled(({ className, ...props }) => (
   <Tooltip {...props} classes={{ popper: className }} />
 ))(({ theme }) => ({
   [`& .${tooltipClasses.tooltip}`]: {
@@ -33,7 +33,7 @@ export default function Home() {
   );
 
   return (
-    <div >
+    <div>
       <Navbar/>
       <Container>
         <div className='grid place-items-center sm:grid-cols-2 md:grid-cols-3 gap-2 lg:grid-cols-4'>
@@ -47,7 +47,7 @@ export default function Home() {
                   </React.Fragment>
                 }
               >
-                <a href="">
+                <a href="#">
                   <img
                     src={movie.img}
                     alt={`Poster of ${movie.title}`}

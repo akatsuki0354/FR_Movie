@@ -16,7 +16,7 @@ const movies = [
     },
     {
         title: "Wonder",
-        img: "https://firebasestorage.googleapis.com/v0/b/firetest-67b89.appspot.com/o/th.jpg?alt=media&token=d40104dc-f1e9-459b-a52b-14c3d2ad0c8d",
+        img: "https://firebasestorage.googleapis.com/v0/b/firetest-67b89.appspot.com/o/th.jpg?alt=media&token=a4005145-1bc8-4089-915d-ee89f62c5274",
         plot: "August Auggie Pullman is a 10-year-old boy living in Brooklyn with his parents, Isabel and Nate, older sister, Olivia Via, and their dog, Daisy. Auggie was born with a rare medical facial deformity, mandibulofacial dysostosis, and has undergone 27 different surgeries to help him function as a result.",
         date_release: "2017",
         genre: "Drama"
@@ -43,7 +43,7 @@ const movies = [
         genre: ["Horror", "Thriller", "Science Fiction", "Suspense"]
     },{
         title: "Tarot",
-        img: "https://firebasestorage.googleapis.com/v0/b/firetest-67b89.appspot.com/o/th.jpg?alt=media&token=ce1e0aba-92e8-4fe2-b477-7159df48a0e2",
+        img: "https://firebasestorage.googleapis.com/v0/b/firetest-67b89.appspot.com/o/tarot.jpg?alt=media&token=753289af-7432-481d-a827-d7515f511049",
         plot: "A group of friends discovers a Tarot deck in the basement of their vacation rental. When they recklessly violate the sacred rule of Tarot readings—never use someone else's deck—they unknowingly unleash an unspeakable evil trapped within the cursed cards.",
         date_release: "2024",
         genre: ["Supernatural", "Horror", "Thriller"]
